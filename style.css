@@ -1,0 +1,466 @@
+@charset "UTF-8";
+
+html{
+  font-size:100%;
+}
+
+body{
+  font-family:"Yu Gothic Medium","遊ゴシック体","ヒラキノ角ゴ Pro W3",sans-serif;
+  line-height:1.7;
+  color::#432;
+}
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+
+img{
+  max-width:100%;
+}
+
+
+.logo{
+  width:210px;
+  margin-top:14px;
+}
+
+.main-nav{
+  display:flex;
+  font-size:1.25rem;
+  text-transform:uppercase;
+  margin-top:34px;
+  list-style:none;
+}
+
+.main-nav li{
+  margin-left:36px;
+}
+
+.main-nav a{
+  color:black;
+}
+
+.main-nav a:hover{
+  color:#0bd;
+}
+
+.page-header{
+  display:flex;
+  justify-content:space-between;
+}
+
+.wrapper{
+  max-width:1100px;
+  margin:0 auto;
+  padding: 0 4px;
+}
+.home-content {
+
+  text-align:center;
+  margin-top:10%;
+}
+
+.page-title{
+  font-family:'Philosopher',serif;
+  font-size:3.25rem;
+  font-weight:normal;
+  text-transform:uppercase;
+}
+
+.big-bg{
+  background-size:cover;
+  background-position:center top;
+  background-repeat:no-repeat;
+}
+
+#home{
+  background-image:url(main.png);
+  min-height:80vh;
+}
+
+#home .page-title{
+  text-transform:none;
+}
+
+.a1{
+  font-family:'Philosopher',serif;
+  margin-top:8%;
+  text-align:center;
+  font-size:2.25rem;
+
+}
+
+.a4{
+  font-family:'Philosopher',serif;
+  margin-top:2%;
+}
+
+.a3{
+  font-family:'Philosopher',serif;
+  font-size:1.375;
+
+
+  text-align:center;
+  font-weight:normal;
+}
+
+
+
+.a3 li {
+    padding: 30px 0;
+    border-bottom: 1px solid #000;
+    line-height: 1.2;
+    box-sizing: border-box;
+    display: list-item;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    display: block
+
+}
+
+span{
+  font-family:'Philosopher',serif;
+  padding:3px;
+  border: solid 1px black;
+  font-size:13px;
+  margin:0 40px;
+}
+
+
+/* .lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+}
+
+.lesson-icon{
+  width:430px;
+  text-align:center;
+  margin:100px 20px 0 200px;
+}
+
+.lesson-icon2{
+  width:430px;
+  text-align:center;
+  margin:100px 200px 0px 70px;
+}
+
+
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+.lesson-icon2 p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 24px;
+  font-family:'Philosopher',serif;
+  margin-left:120px;
+}
+
+.txt-contents2 {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 24px;
+  font-family:'Philosopher',serif;
+  margin-right:120px;
+}
+
+.b1{
+  font-family:'Philosopher',serif;
+  font-size:2.25rem;
+}
+
+.b2{
+  font-size:10px;
+  border-bottom:1px black  solid ;
+  padding:20px 30px 30px;
+  text-align:center;
+  margin-left:100px;
+}
+
+.b22{
+  font-size:10px;
+  border-bottom:1px black  solid ;
+  padding:20px 30px 30px;
+  text-align:center;
+  margin-right:100px;
+} */
+
+/* 施工事例 */
+
+.case{
+  font-family:'Philosopher',serif;
+  text-align:center;
+  margin-top:100px;
+  font-size:2.25rem;
+  padding: 90px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.case-title {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 90px;
+}
+.flexbox {
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.case-content__img {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.case-content {
+    width: 50%;
+    text-align: center;
+}
+
+.case-content__img img {
+    width: 100%;
+}
+
+img {
+    border: none;
+    vertical-align: bottom;
+}
+
+
+.case-content__title {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.case-content__text {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.case-content__btn img {
+    width: 300px;
+}
+
+/* 施工事例 */
+
+
+
+
+
+
+.c1{
+
+  padding-bottom: 30px;
+  margin-top:50px;
+  text-align:center;
+}
+
+/* .c2{
+  font-family:'Philosopher',serif;
+  padding:3px;
+  border: solid 1px black;
+  font-size:13px;
+  margin:0 40px;
+
+
+} */
+
+
+i{
+  font-family:'Philosopher',serif;
+  padding:15px 40px;
+  border: solid 1px black;
+  font-size:20px;
+  margin:0 40px;
+}
+
+.lesson-wrapper1 {
+  height: 500px;
+  padding-bottom: 80px;
+
+  text-align: center;
+}
+
+.heading1 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading1 h2 {
+  font-weight: normal;
+}
+
+.lesson1 {
+  float: left;
+  width: 33.33%;
+}
+
+.lesson-icon1 {
+  position: relative;
+}
+
+.lesson-icon1 p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents1 {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
+
+
+footer{
+  background:black;
+  text-align:center;
+  padding:10px 0;
+}
+
+footer p{
+color:#fff;
+font-size:0.875rem;
+}
+
+.main-nav1{
+  font-family:'Philosopher',serif;
+  display:flex;
+  font-size: 18px;
+  text-transform:uppercase;
+  margin-top:20px;
+  margin-bottom:20px;
+  list-style:none;
+}
+
+.main-nav1 li{
+  margin-left:36px;
+}
+.main-nav1 a{
+  color:white;
+}
+
+.logo1{
+  width:100px;
+  margin-top:14px;
+}
+
+.wrapper1{
+  margin-top:30px;
+}
+
+@media (max-width: 670px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* HEADER */
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        margin: 0 20px;
+    }
+
+    /* HOME */
+    .home-content {
+        margin-top: 20%;
+    }
+
+    /* NEWS */
+    .news-contents {
+        flex-direction: column;
+    }
+    article,
+    aside {
+        width: 100%;
+    }
+
+/* ↓ この部分追加 ↓ */
+    #news .page-title {
+        margin-top: 30px;
+    }
+    aside {
+        margin-top: 60px;
+    }
+    .post-info {
+        margin-bottom: 30px;
+    }
+    .post-date {
+        width: 70px;
+        height: 70px;
+        font-size: 1rem;
+    }
+    .post-date span {
+        font-size: 0.875rem;
+        padding-top: 2px;
+    }
+    .post-title {
+        font-size: 1.375rem;
+    }
+    .post-cat {
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+    .post-title,
+    .post-cat {
+        margin-left: 80px;
+    }
+/* ↑ ここまで追加 ↑ */
+.page-header {
+  display:flex;
+  justify-content:space-between;
+}
+
+#home{
+  background-image:url(main.png);
+  min-height:60vh;
+}
+
+footer{
+
+}
+
+}
